@@ -8,12 +8,12 @@ function compare () {
   yes = document.getElementById('age').value
   if (yes >= 17) {
     document.getElementById('seventeen').style.display = 'block'
- } else if (yes >= 13) {
+  } else if (yes >= 13) {
     document.getElementById('thirteen').style.display = 'block'
- } else if (yes >= 5) {
+  } else if (yes >= 5) {
     document.getElementById('five').style.display = 'block'
- } else if (yes < 5) {
+  } else if (yes < 5) {
     document.getElementById('zero').style.display = 'block'
- }
+  }
 }
-// 
+// This is to determine the category the age belongs in and will reveal the message corresponding to it
